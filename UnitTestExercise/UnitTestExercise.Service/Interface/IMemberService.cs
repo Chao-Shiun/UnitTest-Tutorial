@@ -1,10 +1,10 @@
-using UnitTestExercise.Repository;
+using UnitTestExercise.Common.Model.Dto;
+using UnitTestExercise.Common.Model.Parameter;
 
 namespace UnitTestExercise.Service.Interface;
 
 public interface IMemberService
 {
-    bool Register(string idNumber, string password, string name);
-    Member? GetMember(string idNumber);
-    bool VerifyPassword(string idNumber, string password);
+    MemberServiceDto Register(MemberParameter parameter);
+    GetMemberDto? GetMember(string idNumber);
 }
