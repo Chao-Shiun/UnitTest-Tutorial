@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestExercise.Repository
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestExercise.Common", "UnitTestExercise.Common\UnitTestExercise.Common.csproj", "{F762A098-50EB-4047-9183-32A1E4526F0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestExercise.Tests", "UnitTestExercise.Tests\UnitTestExercise.Tests.csproj", "{49F5B8FC-0EFC-4D4E-AD75-40C52DCF4517}"
+EndProject
 Global
 				GlobalSection(SolutionConfigurationPlatforms) = preSolution
 								Debug|Any CPU = Debug|Any CPU
@@ -23,5 +25,9 @@ Global
 					{F762A098-50EB-4047-9183-32A1E4526F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 					{F762A098-50EB-4047-9183-32A1E4526F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 					{F762A098-50EB-4047-9183-32A1E4526F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+					{49F5B8FC-0EFC-4D4E-AD75-40C52DCF4517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+					{49F5B8FC-0EFC-4D4E-AD75-40C52DCF4517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+					{49F5B8FC-0EFC-4D4E-AD75-40C52DCF4517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+					{49F5B8FC-0EFC-4D4E-AD75-40C52DCF4517}.Release|Any CPU.Build.0 = Release|Any CPU
 				EndGlobalSection
 EndGlobal
