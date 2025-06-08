@@ -8,7 +8,6 @@
 #### IdNumber 驗證
 - [ ] **IdNumber 為 null** - 應拋出 ArgumentException，訊息包含 "Id number must be length 10"
 - [ ] **IdNumber 為空字串** - 應拋出 ArgumentException，訊息包含 "Id number must be length 10"
-- [ ] **IdNumber 為空白字元** - 應拋出 ArgumentException，訊息包含 "Id number must be length 10"
 - [ ] **IdNumber 長度小於 10** - 應拋出 ArgumentException，訊息包含 "Id number must be length 10"
 - [ ] **IdNumber 長度大於 10** - 應拋出 ArgumentException，訊息包含 "Id number must be length 10"
 - [ ] **IdNumber 長度等於 10** - 應通過驗證
@@ -21,7 +20,6 @@
 #### Email 驗證
 - [ ] **Email 為 null** - 應通過驗證（可選欄位）
 - [ ] **Email 為空字串** - 應通過驗證（可選欄位）
-- [ ] **Email 為空白字元** - 應通過驗證（可選欄位）
 - [ ] **Email 格式無效（缺少@符號）** - 應拋出 ArgumentException，訊息包含 "Email format is invalid"
 - [ ] **Email 格式無效（缺少網域名稱）** - 應拋出 ArgumentException，訊息包含 "Email format is invalid"
 - [ ] **Email 格式無效（缺少頂級網域）** - 應拋出 ArgumentException，訊息包含 "Email format is invalid"
