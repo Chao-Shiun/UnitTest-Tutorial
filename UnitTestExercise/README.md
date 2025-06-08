@@ -18,15 +18,14 @@
 - [ ] **Name 為有效值** - 應通過驗證
 
 #### Email 驗證
-- [ ] **Email 為 null** - 應通過驗證（可選欄位）
-- [ ] **Email 為空字串** - 應通過驗證（可選欄位）
+- [ ] **Email 為 null** - 應拋出 ArgumentException，訊息包含 "Email cannot be empty"
+- [ ] **Email 為空字串** - 應拋出 ArgumentException，訊息包含 "Email cannot be empty"
 - [ ] **Email 格式無效（缺少@符號）** - 應拋出 ArgumentException，訊息包含 "Email format is invalid"
 - [ ] **Email 格式無效（缺少網域名稱）** - 應拋出 ArgumentException，訊息包含 "Email format is invalid"
 - [ ] **Email 格式無效（缺少頂級網域）** - 應拋出 ArgumentException，訊息包含 "Email format is invalid"
 - [ ] **Email 格式無效（包含空白字元）** - 應拋出 ArgumentException，訊息包含 "Email format is invalid"
 - [ ] **Email 格式無效（多個@符號）** - 應拋出 ArgumentException，訊息包含 "Email format is invalid"
 - [ ] **Email 格式有效（標準格式）** - 應通過驗證
-- [ ] **Email 格式有效（包含數字和特殊字元）** - 應通過驗證
 - [ ] **Email 格式有效（大小寫混合）** - 應通過驗證
 
 ### 業務邏輯測試
