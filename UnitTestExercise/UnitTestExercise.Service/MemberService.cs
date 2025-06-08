@@ -20,8 +20,11 @@ public class MemberService(IMemberRepository memberRepository, IEmailRepository 
         if(string.IsNullOrWhiteSpace(parameter.Name))
             throw new ArgumentException("Name cannot be empty", nameof(parameter.Name));
         
+        if (string.IsNullOrWhiteSpace(parameter.Email))
+            throw new ArgumentException("Email cannot be empty", nameof(parameter.Email));
+        
         // 新增電子信箱格式驗證
-        if (!string.IsNullOrWhiteSpace(parameter.Email) && !IsValidEmail(parameter.Email))
+        if (!IsValidEmail(parameter.Email))
             throw new ArgumentException("Email format is invalid", nameof(parameter.Email));
 
 
